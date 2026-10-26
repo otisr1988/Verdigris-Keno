@@ -1,0 +1,244 @@
+{
+  "modes": [
+    {
+      "name": "classic_1",
+      "cost": 1,
+      "events": "books_classic_1.jsonl.zst",
+      "weights": "lookUpTable_classic_1_0.csv"
+    },
+    {
+      "name": "classic_2",
+      "cost": 1,
+      "events": "books_classic_2.jsonl.zst",
+      "weights": "lookUpTable_classic_2_0.csv"
+    },
+    {
+      "name": "classic_3",
+      "cost": 1,
+      "events": "books_classic_3.jsonl.zst",
+      "weights": "lookUpTable_classic_3_0.csv"
+    },
+    {
+      "name": "classic_4",
+      "cost": 1,
+      "events": "books_classic_4.jsonl.zst",
+      "weights": "lookUpTable_classic_4_0.csv"
+    },
+    {
+      "name": "classic_5",
+      "cost": 1,
+      "events": "books_classic_5.jsonl.zst",
+      "weights": "lookUpTable_classic_5_0.csv"
+    },
+    {
+      "name": "classic_6",
+      "cost": 1,
+      "events": "books_classic_6.jsonl.zst",
+      "weights": "lookUpTable_classic_6_0.csv"
+    },
+    {
+      "name": "classic_7",
+      "cost": 1,
+      "events": "books_classic_7.jsonl.zst",
+      "weights": "lookUpTable_classic_7_0.csv"
+    },
+    {
+      "name": "classic_8",
+      "cost": 1,
+      "events": "books_classic_8.jsonl.zst",
+      "weights": "lookUpTable_classic_8_0.csv"
+    },
+    {
+      "name": "classic_9",
+      "cost": 1,
+      "events": "books_classic_9.jsonl.zst",
+      "weights": "lookUpTable_classic_9_0.csv"
+    },
+    {
+      "name": "classic_10",
+      "cost": 1,
+      "events": "books_classic_10.jsonl.zst",
+      "weights": "lookUpTable_classic_10_0.csv"
+    },
+    {
+      "name": "low_1",
+      "cost": 1,
+      "events": "books_low_1.jsonl.zst",
+      "weights": "lookUpTable_low_1_0.csv"
+    },
+    {
+      "name": "low_2",
+      "cost": 1,
+      "events": "books_low_2.jsonl.zst",
+      "weights": "lookUpTable_low_2_0.csv"
+    },
+    {
+      "name": "low_3",
+      "cost": 1,
+      "events": "books_low_3.jsonl.zst",
+      "weights": "lookUpTable_low_3_0.csv"
+    },
+    {
+      "name": "low_4",
+      "cost": 1,
+      "events": "books_low_4.jsonl.zst",
+      "weights": "lookUpTable_low_4_0.csv"
+    },
+    {
+      "name": "low_5",
+      "cost": 1,
+      "events": "books_low_5.jsonl.zst",
+      "weights": "lookUpTable_low_5_0.csv"
+    },
+    {
+      "name": "low_6",
+      "cost": 1,
+      "events": "books_low_6.jsonl.zst",
+      "weights": "lookUpTable_low_6_0.csv"
+    },
+    {
+      "name": "low_7",
+      "cost": 1,
+      "events": "books_low_7.jsonl.zst",
+      "weights": "lookUpTable_low_7_0.csv"
+    },
+    {
+      "name": "low_8",
+      "cost": 1,
+      "events": "books_low_8.jsonl.zst",
+      "weights": "lookUpTable_low_8_0.csv"
+    },
+    {
+      "name": "low_9",
+      "cost": 1,
+      "events": "books_low_9.jsonl.zst",
+      "weights": "lookUpTable_low_9_0.csv"
+    },
+    {
+      "name": "low_10",
+      "cost": 1,
+      "events": "books_low_10.jsonl.zst",
+      "weights": "lookUpTable_low_10_0.csv"
+    },
+    {
+      "name": "medium_1",
+      "cost": 1,
+      "events": "books_medium_1.jsonl.zst",
+      "weights": "lookUpTable_medium_1_0.csv"
+    },
+    {
+      "name": "medium_2",
+      "cost": 1,
+      "events": "books_medium_2.jsonl.zst",
+      "weights": "lookUpTable_medium_2_0.csv"
+    },
+    {
+      "name": "medium_3",
+      "cost": 1,
+      "events": "books_medium_3.jsonl.zst",
+      "weights": "lookUpTable_medium_3_0.csv"
+    },
+    {
+      "name": "medium_4",
+      "cost": 1,
+      "events": "books_medium_4.jsonl.zst",
+      "weights": "lookUpTable_medium_4_0.csv"
+    },
+    {
+      "name": "medium_5",
+      "cost": 1,
+      "events": "books_medium_5.jsonl.zst",
+      "weights": "lookUpTable_medium_5_0.csv"
+    },
+    {
+      "name": "medium_6",
+      "cost": 1,
+      "events": "books_medium_6.jsonl.zst",
+      "weights": "lookUpTable_medium_6_0.csv"
+    },
+    {
+      "name": "medium_7",
+      "cost": 1,
+      "events": "books_medium_7.jsonl.zst",
+      "weights": "lookUpTable_medium_7_0.csv"
+    },
+    {
+      "name": "medium_8",
+      "cost": 1,
+      "events": "books_medium_8.jsonl.zst",
+      "weights": "lookUpTable_medium_8_0.csv"
+    },
+    {
+      "name": "medium_9",
+      "cost": 1,
+      "events": "books_medium_9.jsonl.zst",
+      "weights": "lookUpTable_medium_9_0.csv"
+    },
+    {
+      "name": "medium_10",
+      "cost": 1,
+      "events": "books_medium_10.jsonl.zst",
+      "weights": "lookUpTable_medium_10_0.csv"
+    },
+    {
+      "name": "high_1",
+      "cost": 1,
+      "events": "books_high_1.jsonl.zst",
+      "weights": "lookUpTable_high_1_0.csv"
+    },
+    {
+      "name": "high_2",
+      "cost": 1,
+      "events": "books_high_2.jsonl.zst",
+      "weights": "lookUpTable_high_2_0.csv"
+    },
+    {
+      "name": "high_3",
+      "cost": 1,
+      "events": "books_high_3.jsonl.zst",
+      "weights": "lookUpTable_high_3_0.csv"
+    },
+    {
+      "name": "high_4",
+      "cost": 1,
+      "events": "books_high_4.jsonl.zst",
+      "weights": "lookUpTable_high_4_0.csv"
+    },
+    {
+      "name": "high_5",
+      "cost": 1,
+      "events": "books_high_5.jsonl.zst",
+      "weights": "lookUpTable_high_5_0.csv"
+    },
+    {
+      "name": "high_6",
+      "cost": 1,
+      "events": "books_high_6.jsonl.zst",
+      "weights": "lookUpTable_high_6_0.csv"
+    },
+    {
+      "name": "high_7",
+      "cost": 1,
+      "events": "books_high_7.jsonl.zst",
+      "weights": "lookUpTable_high_7_0.csv"
+    },
+    {
+      "name": "high_8",
+      "cost": 1,
+      "events": "books_high_8.jsonl.zst",
+      "weights": "lookUpTable_high_8_0.csv"
+    },
+    {
+      "name": "high_9",
+      "cost": 1,
+      "events": "books_high_9.jsonl.zst",
+      "weights": "lookUpTable_high_9_0.csv"
+    },
+    {
+      "name": "high_10",
+      "cost": 1,
+      "events": "books_high_10.jsonl.zst",
+      "weights": "lookUpTable_high_10_0.csv"
+    }
+  ]
+}

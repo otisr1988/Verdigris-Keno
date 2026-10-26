@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-emerald-deep: #123F35;
+    --color-charcoal-dark: #151B1C;
+    --color-copper-oxidized: #B9774D;
+    --color-ivory-warm: #F2ECDD;
+    --color-jade-muted: #68A895;
+    --color-champagne-antique: #C8B17E;
+    --color-forest-dark: #092920;
+    --color-copper-highlight: #D79362;
+  }
+
+  body {
+    background-color: #0c1212;
+    color: #F2ECDD;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom beveled number button styling */
+.keno-tile {
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 255, 255, 0.15),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.keno-tile:active {
+  transform: translateY(1px);
+  box-shadow: 
+    inset 0 2px 4px rgba(0, 0, 0, 0.6),
+    0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.keno-tile-selected {
+  background: linear-gradient(135deg, #185246 0%, #123F35 100%);
+  border: 1.5px solid #D79362;
+  box-shadow: 
+    0 0 10px rgba(215, 147, 98, 0.3),
+    inset 0 1px 2px rgba(255, 255, 255, 0.25),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.6);
+  color: #F2ECDD;
+}
+
+.keno-tile-drawn {
+  background: linear-gradient(135deg, #B9774D 0%, #874e2b 100%);
+  border: 1.5px solid #F2ECDD;
+  box-shadow: 
+    0 0 14px rgba(215, 147, 98, 0.6),
+    inset 0 1px 2px rgba(255, 255, 255, 0.4);
+  color: #FFFFFF;
+}
+
+.keno-tile-match {
+  background: linear-gradient(135deg, #68A895 0%, #206b57 100%);
+  border: 2px solid #F2ECDD;
+  box-shadow: 
+    0 0 20px rgba(104, 168, 149, 0.8),
+    0 0 35px rgba(215, 147, 98, 0.4),
+    inset 0 2px 3px rgba(255, 255, 255, 0.6);
+  color: #FFFFFF;
+  animation: matchPulse 1.2s infinite alternate ease-in-out;
+}
+
+.keno-tile-missed {
+  opacity: 0.35;
+  filter: grayscale(40%);
+}
+
+@keyframes matchPulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(104, 168, 149, 0.7);
+  }
+  100% {
+    transform: scale(1.06);
+    box-shadow: 0 0 22px rgba(104, 168, 149, 1), 0 0 30px rgba(215, 147, 98, 0.5);
+  }
+}
+
+/* Metallic gradient buttons */
+.btn-primary-emerald {
+  background: linear-gradient(180deg, #247562 0%, #123F35 60%, #092920 100%);
+  border: 1px solid #B9774D;
+  box-shadow: 
+    0 4px 12px rgba(9, 41, 32, 0.6),
+    inset 0 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+.btn-primary-emerald:hover:not(:disabled) {
+  background: linear-gradient(180deg, #2c8c76 0%, #185246 60%, #0c382c 100%);
+  border-color: #D79362;
+  box-shadow: 
+    0 6px 18px rgba(215, 147, 98, 0.35),
+    inset 0 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+.btn-copper {
+  background: linear-gradient(180deg, #C88358 0%, #B9774D 60%, #874e2b 100%);
+  border: 1px solid #D79362;
+  box-shadow: 
+    0 2px 8px rgba(0, 0, 0, 0.4),
+    inset 0 1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.btn-copper:hover:not(:disabled) {
+  background: linear-gradient(180deg, #d89163 0%, #c48256 60%, #9c5932 100%);
+  border-color: #F2ECDD;
+}
+
+/* Glass panel */
+.glass-panel {
+  background: rgba(21, 27, 28, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(185, 119, 77, 0.22);
+}

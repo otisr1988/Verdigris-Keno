@@ -1,0 +1,6 @@
+{
+  "name": "Verdigris Keno - Stake Engine Casino Game",
+  "description": "Premium industrial-luxury 40-number Keno casino game built with provably fair mathematics, authentic RGS integration, and responsive Stake Engine compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

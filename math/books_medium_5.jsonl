@@ -1,0 +1,6 @@
+{"id":1,"payoutMultiplier":0,"events":[{"type":"draw_result","hits":0,"picksCount":5,"multiplier":0}]}
+{"id":2,"payoutMultiplier":0,"events":[{"type":"draw_result","hits":1,"picksCount":5,"multiplier":0}]}
+{"id":3,"payoutMultiplier":84,"events":[{"type":"draw_result","hits":2,"picksCount":5,"multiplier":0.84}]}
+{"id":4,"payoutMultiplier":403,"events":[{"type":"draw_result","hits":3,"picksCount":5,"multiplier":4.03}]}
+{"id":5,"payoutMultiplier":2688,"events":[{"type":"draw_result","hits":4,"picksCount":5,"multiplier":26.88}]}
+{"id":6,"payoutMultiplier":40326,"events":[{"type":"draw_result","hits":5,"picksCount":5,"multiplier":403.26}]}

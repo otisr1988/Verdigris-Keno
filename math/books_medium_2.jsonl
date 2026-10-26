@@ -1,0 +1,3 @@
+{"id":1,"payoutMultiplier":0,"events":[{"type":"draw_result","hits":0,"picksCount":2,"multiplier":0}]}
+{"id":2,"payoutMultiplier":91,"events":[{"type":"draw_result","hits":1,"picksCount":2,"multiplier":0.91}]}
+{"id":3,"payoutMultiplier":1064,"events":[{"type":"draw_result","hits":2,"picksCount":2,"multiplier":10.64}]}

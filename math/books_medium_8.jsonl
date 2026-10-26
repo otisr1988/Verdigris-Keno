@@ -1,0 +1,9 @@
+{"id":1,"payoutMultiplier":0,"events":[{"type":"draw_result","hits":0,"picksCount":8,"multiplier":0}]}
+{"id":2,"payoutMultiplier":0,"events":[{"type":"draw_result","hits":1,"picksCount":8,"multiplier":0}]}
+{"id":3,"payoutMultiplier":0,"events":[{"type":"draw_result","hits":2,"picksCount":8,"multiplier":0}]}
+{"id":4,"payoutMultiplier":0,"events":[{"type":"draw_result","hits":3,"picksCount":8,"multiplier":0}]}
+{"id":5,"payoutMultiplier":527,"events":[{"type":"draw_result","hits":4,"picksCount":8,"multiplier":5.27}]}
+{"id":6,"payoutMultiplier":2681,"events":[{"type":"draw_result","hits":5,"picksCount":8,"multiplier":26.81}]}
+{"id":7,"payoutMultiplier":14361,"events":[{"type":"draw_result","hits":6,"picksCount":8,"multiplier":143.61}]}
+{"id":8,"payoutMultiplier":86169,"events":[{"type":"draw_result","hits":7,"picksCount":8,"multiplier":861.69}]}
+{"id":9,"payoutMultiplier":574459,"events":[{"type":"draw_result","hits":8,"picksCount":8,"multiplier":5744.59}]}

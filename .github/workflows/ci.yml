@@ -1,0 +1,60 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test-and-build:
+    name: Test Math & Build Frontend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: TypeScript Typecheck & Lint
+        run: npm run lint
+
+      - name: Run Keno Mathematics & Cryptographic Unit Tests
+        run: npx tsx --test src/game/kenoMath.test.ts
+
+      - name: Run 4M-Round Monte Carlo Simulation Validation
+        run: npx tsx scripts/monteCarloSim.ts
+
+      - name: Generate Stake Engine Math Publication Package
+        run: npx tsx scripts/generateMathPackage.ts
+
+      - name: Compile Production Frontend
+        run: npm run build
+
+      - name: Generate Production Packages & Checksums
+        run: python3 scripts/createPackages.py
+
+      - name: Upload Math Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Verdigris_Keno_Math
+          path: release/Verdigris_Keno_Math.zip
+
+      - name: Upload Frontend Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Verdigris_Keno_Frontend
+          path: release/Verdigris_Keno_Frontend.zip
